@@ -1,0 +1,27 @@
+ant:
+<ant>
+  <mkdir dir="/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution" />
+  <mkdir dir="/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing" />
+  <mkdir dir="/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution_files_only" />
+</ant>
+mcc -o SimpleDSFviewer -W main:SimpleDSFviewer -T link:exe -d '/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing' -v '/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version"
+to Compiler path instance.] 
+Parsing file "/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/readme.txt".
+Generating file "/Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/run_SimpleDSFviewer.sh".
+Packaging...
+Adding custom icon /Applications/MATLAB_R2015a.app/toolbox/compiler/Resources/default_icon.icns to /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/SimpleDSFviewer.app.
+Creating the bundle...
+Copying /Applications/MATLAB_R2015a.app/toolbox/compiler/maci64/setup.app to /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution/MyAppInstaller_web.app.
+Copying /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution/bundle.zip to /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution/MyAppInstaller_web.app/Contents/Resources/bundle.zip.
+Copying /Applications/MATLAB_R2015a.app/toolbox/compiler/Resources/default_splash.png to /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution/MyAppInstaller_web.app/Contents/Resources/splash.png.
+Copying /Applications/MATLAB_R2015a.app/toolbox/compiler/Resources/default_icon.icns to /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution/MyAppInstaller_web.app/Contents/Resources/installer.icns.
+Web based installer created at /Users/Changye/Documents/GitHub/SimpleDSFviewer-5.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution/MyAppInstaller_web.app.
+Packaging complete.
+Elapsed packaging time was: 45 seconds.
